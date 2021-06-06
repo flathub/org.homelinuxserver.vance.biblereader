@@ -1,0 +1,14 @@
+diff --git a/org.homelinuxserver.vance.biblereader.appdata.xml b/org.homelinuxserver.vance.biblereader.appdata.xml
+index 11db556..0bd384a 100644
+--- a/org.homelinuxserver.vance.biblereader.appdata.xml
++++ b/org.homelinuxserver.vance.biblereader.appdata.xml
+@@ -28,6 +28,9 @@
+ 		</screenshot>
+ 	</screenshots>
+ 
++	<releases> 
++		<release version="1.0.3" date="2019-04-26"/>
++	</releases>
+ 	<url type="homepage">https://gitlab.com/natervance/biblereader</url>
+ 	<content_rating type="oars-1.0" />
+ 

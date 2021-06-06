@@ -1,7 +1,7 @@
 {
     "app-id" : "org.homelinuxserver.vance.biblereader",
     "runtime" : "org.freedesktop.Platform",
-    "runtime-version" : "18.08",
+    "runtime-version" : "20.08",
     "sdk" : "org.freedesktop.Sdk",
     "command" : "biblereader",
     "finish-args" : [
@@ -31,8 +31,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/mm-common/0.9/mm-common-0.9.12.tar.xz",
-                    "sha256" : "ceffdcce1e5b52742884c233ec604bf6fded12eea9da077ce7a62c02c87e7c0b"
+                    "url" : "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.3.tar.xz",
+                    "sha256" : "e81596625899aacf1d0bf27ccc2fcc7f373405ec48735ca1c7273c0fbcdc1ef5"
                 }
             ]
         },
@@ -44,8 +44,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/libsigc++/2.10/libsigc++-2.10.1.tar.xz",
-                    "sha256" : "c9a25f26178c6cbb147f9904d8c533b5a5c5111a41ac2eb781eb734eea446003"
+                    "url" : "https://download.gnome.org/sources/libsigc++/2.10/libsigc%2B%2B-2.10.7.tar.xz",
+                    "sha256" : "d082a2ce72c750f66b1a415abe3e852df2eae1e8af53010f4ac2ea261a478832"
                 }
             ]
         },
@@ -73,8 +73,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://www.cairographics.org/releases/cairomm-1.12.2.tar.gz",               
-                    "sha256" : "45c47fd4d0aa77464a75cdca011143fea3ef795c4753f6e860057da5fb8bd599"
+                    "url" : "https://www.cairographics.org/releases/cairomm-1.14.3.tar.xz",
+                    "sha256" : "0d37e067c5c4ca7808b7ceddabfe1932c5bd2a750ad64fb321e1213536297e78"
                 }
             ]
         },
@@ -125,12 +125,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://crosswire.org/ftpmirror/pub/sword/source/v1.8/sword-1.8.1.tar.gz",
-                    "sha256" : "ce9aa8f721a737f406115d35ff438bd07c829fce1605f0d6dcdabc4318bc5e93"
-                },
-                {
-                    "type" : "patch",
-                    "path" : "sword.patch"
+                    "url" : "https://crosswire.org/ftpmirror/pub/sword/source/v1.9/sword-1.9.0.tar.gz",
+                    "sha256" : "42409cf3de2faf1108523e2c5ac0745d21f9ed2a5c78ed878ee9dcc303426b8a"
                 }
             ]
         },
@@ -142,6 +138,10 @@
                     "url" : "https://gitlab.com/natervance/biblereader.git",
                     "tag" : "1.0.3",
                     "commit" : "e827d61973c6f02fbc88e99c6b0b01f6c5f9c472"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "appdata.patch"
                 }
             ]
         }
