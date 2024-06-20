@@ -134,10 +134,9 @@
             "name" : "biblereader",
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.com/natervance/biblereader.git",
-                    "tag" : "1.0.3",
-                    "commit" : "e827d61973c6f02fbc88e99c6b0b01f6c5f9c472"
+                    "type" : "archive",
+                    "url" : "https://gitlab.com/natervance/biblereader/-/archive/1.0.3/biblereader-1.0.3.tar.gz",
+                    "sha256" : "329c2bdbd520406ed73eb882ad51fbd975003bef74d6e90037725a2fdb291892"
                 },
                 {
                     "type" : "patch",
