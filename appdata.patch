@@ -1,14 +1,48 @@
+From a9a4f9f0655f85a65728ca9935dc59869c3258c1 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Thu, 20 Jun 2024 23:14:11 +0300
+Subject: [PATCH] fix appdata
+
+---
+ org.homelinuxserver.vance.biblereader.appdata.xml | 6 +++++-
+ org.homelinuxserver.vance.biblereader.desktop     | 1 +
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
 diff --git a/org.homelinuxserver.vance.biblereader.appdata.xml b/org.homelinuxserver.vance.biblereader.appdata.xml
-index 11db556..0bd384a 100644
+index 11db556..b5e42f3 100644
 --- a/org.homelinuxserver.vance.biblereader.appdata.xml
 +++ b/org.homelinuxserver.vance.biblereader.appdata.xml
-@@ -28,6 +28,9 @@
+@@ -5,6 +5,7 @@
+ 	<project_license>LGPL-3.0+ AND GPL-3.0+</project_license>
+ 	<name>Biblereader</name>
+ 	<summary>Read the Word</summary>
++	<developer_name>Nathan Vance</developer_name>
+ 
+ 	<description>
+ 		<p>
+@@ -27,8 +28,11 @@
+ 			<image>https://gitlab.com/natervance/biblereader/raw/dfbd4447c0173f4112b972ceead9295c3042ef1e/screenshots/biblereader-passageselect.png</image>
  		</screenshot>
  	</screenshots>
- 
-+	<releases> 
++	<releases>
 +		<release version="1.0.3" date="2019-04-26"/>
 +	</releases>
- 	<url type="homepage">https://gitlab.com/natervance/biblereader</url>
- 	<content_rating type="oars-1.0" />
  
+ 	<url type="homepage">https://gitlab.com/natervance/biblereader</url>
+-	<content_rating type="oars-1.0" />
++	<content_rating type="oars-1.1" />
+ 
+ </component>   
+diff --git a/org.homelinuxserver.vance.biblereader.desktop b/org.homelinuxserver.vance.biblereader.desktop
+index 7a2a9a4..96d2b96 100644
+--- a/org.homelinuxserver.vance.biblereader.desktop
++++ b/org.homelinuxserver.vance.biblereader.desktop
+@@ -4,4 +4,5 @@ Type=Application
+ Name=Biblereader
+ Comment=Read the Word
+ Exec=biblereader
++Categories=Education;Spirituality;
+ Icon=org.homelinuxserver.vance.biblereader-symbolic
+--
+libgit2 1.7.2
+
